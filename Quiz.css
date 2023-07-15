@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    min-width: 100px;
+    position: absolute;
+    min-height: 250px;
+    transform: translate(-50%,-50%);
+    border:solid  black 1px;
+    gap: 8px;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+
+   
+}
+.list1{
+    display: flex;
+    gap: 5px;
+
+}
+.btn{
+    padding: 10px;
+    margin-left: 10px;
+    height: 50px;
+    width: 90px;
+    background-color: rgb(6, 6, 51)!important;
+    color: #ffffff;
+}
